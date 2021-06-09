@@ -1,9 +1,11 @@
 # soil_erosion_detection
 ### Loading data
 For loading data two packages were used: 
-- rasterio 
+- rasterio
+ 
 Rasterio reads and writes GeoTIFF and other formats to organize and store gridded raster datasets such as satellite imagery and terrain models and provides a Python API based on Numpy N-dimensional arrays
 - geopandas
+
 The goal of GeoPandas is to make working with geospatial data in python easier. It combines the capabilities of pandas and shapely, providing geospatial operations in pandas and a high-level interface to multiple geometries to shapely. GeoPandas enables you to easily do operations in python that would otherwise require a spatial database such as PostGIS
 
 ### Research about model for detection
